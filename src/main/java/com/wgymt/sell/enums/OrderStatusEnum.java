@@ -8,13 +8,13 @@ import lombok.Getter;
 @Getter
 public enum OrderStatusEnum {
 
-    New(0, "新订单"),
+    NEW(0, "新订单"),
     FINISHED(1, "已完成"),
     CANCEL(2, "已取消");
 
-    private Integer code;
+    private final Integer code;
 
-    private String message;
+    private final String message;
 
     OrderStatusEnum(Integer code, String message) {
         this.code = code;

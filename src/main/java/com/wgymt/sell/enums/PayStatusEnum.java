@@ -11,9 +11,9 @@ public enum PayStatusEnum {
     WAIT(0, "未支付"),
     SUCCESS(1, "支付成功");
 
-    private Integer code;
+    private final Integer code;
 
-    private String message;
+    private final String message;
 
     PayStatusEnum(Integer code, String message) {
         this.code = code;

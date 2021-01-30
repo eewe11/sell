@@ -49,7 +49,7 @@ public class OrderMaster {
     /**
      * 订单状态, 默认为0, 表示新下单
      */
-    private Integer orderStatus = OrderStatusEnum.New.getCode();
+    private Integer orderStatus = OrderStatusEnum.NEW.getCode();
 
     /**
      * 支付状态, 默认为0, 表示未支付
